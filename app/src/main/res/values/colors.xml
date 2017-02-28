@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="colorBcg">#A52007</color>
+    <color name="colorBcgLan">#78a52007</color>
+
+    <color name="colorMonday">#E63C51</color>
+    <color name="colorTuesday">#FEC644</color>
+    <color name="colorWednesday">#3FC59E</color>
+    <color name="colorThursday">#43B3E2</color>
+    <color name="colorFriday">#4C87E7</color>
+    <color name="colorSaturday">#9B78EC</color>
+    <color name="colorSunday">#E771B3</color>
+
+
+    <color name="colorMondayBlur">#6ee63c51</color>
+    <color name="colorTuesdayBlur">#6efec644</color>
+    <color name="colorWednesdayBlur">#6e3fc59e</color>
+    <color name="colorThursdayBlur">#6e43b3e2</color>
+    <color name="colorFridayBlur">#6e4c87e7</color>
+    <color name="colorSaturdaBlury">#6e9b78ec</color>
+    <color name="colorSundayBlur">#6ee771b3</color>
+
+</resources>

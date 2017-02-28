@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius_size">20dp</dimen>
+    <dimen name="btn_days_text_size">24sp</dimen>
+    <dimen name="iv_smile_size">50dp</dimen>
+    <dimen name="iv_smile_marginLeft">55dp</dimen>
+    <dimen name="btn_language_height">200dp</dimen>
+    <dimen name="btn_language_width">88dp</dimen>
+    <dimen name="tv_numeric_size">26sp</dimen>
+    <dimen name="tv_time_size">20dp</dimen>
+    <dimen name="iv_smile_margin_top">30dp</dimen>
+    <dimen name="big_text_size">24sp</dimen>
+    <dimen name="rl_margin_right">30dp</dimen>
+    <dimen name="iv_arrow_size">40dp</dimen>
+    <dimen name="et_less_textSize">22sp</dimen>
+    <dimen name="btn_chooseLn_width">140dp</dimen>
+    <dimen name="btn_chooseLn_height">60dp</dimen>
+    <dimen name="size">16dp</dimen>
+    <dimen name="marginleft">100dp</dimen>
+    <dimen name="lanbtnwidth">200dp</dimen>
+    <dimen name="lanbtnheight">100dp</dimen>
+    <dimen name="rateusbtnwidth">160dp</dimen>
+    <dimen name="rateusbtnheight">70dp</dimen>
+</resources>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/fRoot"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBcg"
+    android:orientation="vertical"
+    tools:context="com.example.gio.lessnote.activities.MainActivity">
+
+    //=========================================================================
+
+    <RelativeLayout
+        android:id="@+id/rlMonday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="1dp">
+
+    <Button
+        android:id="@+id/btnMonday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/rounded1"
+        android:text="ორშაბათი"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_days_text_size"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivMonday"
+            android:layout_width="@dimen/iv_smile_size"
+            android:layout_height="@dimen/iv_smile_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_smile_marginLeft"
+            android:background="@drawable/mondaysmile"
+            android:elevation="1dp" />
+
+    </RelativeLayout>
+
+    //=========================================================================
+
+
+    //=========================================================================
+
+    <RelativeLayout
+        android:id="@+id/rlTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="1dp">
+
+    <Button
+        android:id="@+id/btnTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/rounded2"
+        android:text="სამშაბათი"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_days_text_size"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivTuesday"
+            android:layout_width="@dimen/iv_smile_size"
+            android:layout_height="@dimen/iv_smile_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_smile_marginLeft"
+            android:background="@drawable/tuesdaysmile"
+            android:elevation="1dp" />
+
+    </RelativeLayout>
+
+    //=========================================================================
+
+
+    //=========================================================================
+
+    <RelativeLayout
+        android:id="@+id/rlWednesday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="1dp">
+
+    <Button
+        android:id="@+id/btnWednesday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/rounded3"
+        android:text="ოთხშაბათი"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_days_text_size"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivWednesday"
+            android:layout_width="@dimen/iv_smile_size"
+            android:layout_height="@dimen/iv_smile_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_smile_marginLeft"
+            android:background="@drawable/wednesdaysmile"
+            android:elevation="1dp" />
+
+    </RelativeLayout>
+
+    //=========================================================================
+
+
+    //=========================================================================
+
+    <RelativeLayout
+        android:id="@+id/rlThursday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="1dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnThursday"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/rounded4"
+        android:text="ხუთშაბათი"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_days_text_size"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivThursday"
+            android:layout_width="@dimen/iv_smile_size"
+            android:layout_height="@dimen/iv_smile_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_smile_marginLeft"
+            android:background="@drawable/thursdaysmile"
+            android:elevation="1dp" />
+
+    </RelativeLayout>
+
+    //=========================================================================
+
+
+    //=========================================================================
+
+    <RelativeLayout
+        android:id="@+id/rlFriday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="1dp">
+
+        <Button
+            android:id="@+id/btnFriday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rounded5"
+            android:text="პარასკევი"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_days_text_size"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivFriday"
+            android:layout_width="@dimen/iv_smile_size"
+            android:layout_height="@dimen/iv_smile_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_smile_marginLeft"
+            android:background="@drawable/fridaysmile"
+            android:elevation="1dp" />
+
+    </RelativeLayout>
+
+    //=========================================================================
+
+
+    //=========================================================================
+
+    <RelativeLayout
+        android:id="@+id/rlSaturday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="1dp">
+
+        <Button
+            android:id="@+id/btnSaturday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rounded6"
+            android:text="შაბათი"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_days_text_size"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivSaturday"
+            android:layout_width="@dimen/iv_smile_size"
+            android:layout_height="@dimen/iv_smile_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_smile_marginLeft"
+            android:background="@drawable/saturdaysmile"
+            android:elevation="1dp" />
+
+    </RelativeLayout>
+    //=========================================================================
+
+
+    <RelativeLayout
+        android:id="@+id/rlSunday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="1dp">
+
+        <Button
+            android:id="@+id/btnSunday"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded7"
+            android:text="კვირა"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_days_text_size"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivSunday"
+            android:layout_width="@dimen/iv_smile_size"
+            android:layout_height="@dimen/iv_smile_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/sundaysmile"
+            android:elevation="1dp" />
+
+       <!-- <Button
+            android:onClick="chooseLanguage"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight= "@dimen/activity_horizontal_margin"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnChooseLn"
+            android:background="@drawable/geolan"
+            android:layout_width="@dimen/btn_chooseLn_width"
+            android:layout_height="@dimen/btn_chooseLn_height" />-->
+
+    </RelativeLayout>
+
+
+    //=========================================================================
+
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        >
+        <Button
+            android:onClick="chooseLanguage"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight= "@dimen/activity_horizontal_margin"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnChooseLn"
+            android:background="@drawable/geolan"
+            android:layout_width="@dimen/btn_chooseLn_width"
+            android:layout_height="@dimen/btn_chooseLn_height"
+            android:layout_alignParentBottom="true"
+
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:visibility="gone"
+        android:background="@color/colorBcgLan"
+        android:id="@+id/flAlpha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/fLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    //========================================================================= blur
+    <FrameLayout
+        android:visibility="invisible"
+        android:id="@+id/flBlur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+//========================================================================= blur
+</FrameLayout>
