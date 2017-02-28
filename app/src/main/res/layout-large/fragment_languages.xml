@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@null"
     android:orientation="vertical">
-
+  
 
     <Button
         android:onClick="languageClicked"
@@ -82,7 +82,7 @@
         android:layout_width="@dimen/rateusbtnwidth"
         android:layout_height="@dimen/rateusbtnheight"
         android:text="Rate Us"
-        android:textSize="17sp"
+        android:textSize="@dimen/big_text_size"
         android:textColor="#FFF"
         android:onClick="languageClicked"
         android:background="@drawable/buttonshape"

@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnSunday;
     private ImageView ivSunday;
     private RelativeLayout rlSunday;
+    Button rate;
     private LinearLayout activity_main;
 
     private Button btnChooseLn;
@@ -110,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getSupportFragmentManager().beginTransaction().addToBackStack(null).setCustomAnimations(R.anim.slide_up_dialog, 0, 0, R.anim.slide_down_dialog)
                 .replace(R.id.fLanguages, fragment).commit();
 
+
     }
 
     //=========================================================================
@@ -118,7 +120,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         flBlur = findViewById(R.id.flBlur);
         flAlpha = findViewById(R.id.flAlpha);
         btnChooseLn = (Button)findViewById(R.id.btnChooseLn);
-
         btnMonday = (Button) findViewById(R.id.btnMonday);
         ivMonday = (ImageView) findViewById(R.id.ivMonday);
         rlMonday = (RelativeLayout) findViewById(R.id.rlMonday);
@@ -201,17 +202,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // ======  languageDays
 
         String languageCHosen = LessNoteApplication.getInstce().getSharedString(MyConstants.LANGUGE_CHOSEN);
+        rate = (Button) findViewById(R.id.bRateUs);
 
         if (languageCHosen.equals("") || languageCHosen.equals(MyConstants.LAN_GEORGIA)) {
-                fillButtonTexts(daysGeoTexts);
+            fillButtonTexts(daysGeoTexts);
             btnChooseLn.setBackgroundResource(R.drawable.geolan);
         } else if (languageCHosen.equals(MyConstants.LAN_ENGLISH)) {
             fillButtonTexts(daysEngTexts);
             btnChooseLn.setBackgroundResource(R.drawable.englan);
 
-        } else {
+
+        } else if (languageCHosen.equals(MyConstants.LAN_RUSSIAN)) {
             fillButtonTexts(daysRusTexts);
             btnChooseLn.setBackgroundResource(R.drawable.ruslan);
+
+
+        }
+        else if (languageCHosen.equals(MyConstants.LAN_SPANISH)) {
+            fillButtonTexts(daysSpaTexts);
+            btnChooseLn.setBackgroundResource(R.drawable.spalan);
+
+
+        }
+        else if (languageCHosen.equals(MyConstants.LAN_CHINISE)) {
+            fillButtonTexts(daysChiTexts);
+            btnChooseLn.setBackgroundResource(R.drawable.chilan);
+
+
+        }
+        else{
+            fillButtonTexts(daysIndTexts);
+            btnChooseLn.setBackgroundResource(R.drawable.indlan);
 
         }
 
@@ -571,37 +592,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void languageClicked(View view) {
+        rate = (Button) findViewById(R.id.bRateUs);
         switch (view.getId()) {
             case R.id.btnGeo:
                 fillButtonTexts(daysGeoTexts);
                 btnChooseLn.setBackgroundResource(R.drawable.geolan);
+                rate.setText("შეგვაფასეთ");
                 fragment.languageClicked(MyConstants.LAN_GEORGIA);
                 break;
             case R.id.btnRus:
                 fillButtonTexts(daysRusTexts);
                 btnChooseLn.setBackgroundResource(R.drawable.ruslan);
+                rate.setText("оцените нас");
                 fragment.languageClicked(MyConstants.LAN_RUSSIAN);
                 break;
             case R.id.btnEng:
                 fillButtonTexts(daysEngTexts);
                 btnChooseLn.setBackgroundResource(R.drawable.englan);
+                rate.setText("Rate Us");
                 fragment.languageClicked(MyConstants.LAN_ENGLISH);
                 break;
             case R.id.btnSpa:
                 fillButtonTexts(daysSpaTexts);
                 btnChooseLn.setBackgroundResource(R.drawable.spalan);
+                rate.setText("Recordar Más Tarde");
                 fragment.languageClicked(MyConstants.LAN_SPANISH);
 
                 break;
             case R.id.btnChi:
                 fillButtonTexts(daysChiTexts);
                 btnChooseLn.setBackgroundResource(R.drawable.chilan);
+                rate.setText("以後提醒");
                 fragment.languageClicked(MyConstants.LAN_CHINISE);
 
                 break;
             case R.id.btnInD:
                 fillButtonTexts(daysIndTexts);
                 btnChooseLn.setBackgroundResource(R.drawable.indlan);
+                rate.setText("बाद में याद दिलाना");
                 fragment.languageClicked(MyConstants.LAN_INDIAN);
                break;
             case R.id.bRateUs:
