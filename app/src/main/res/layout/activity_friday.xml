@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/top_rounded5"
     android:orientation="vertical"
-    tools:context="com.example.gio.lessnote.activities.FridayActivity">
+    tools:context="com.example.gio.lessnote.ge.example.gio.lessnote.activities.FridayActivity">
 
     //=========================================================================
 

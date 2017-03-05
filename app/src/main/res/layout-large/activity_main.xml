@@ -290,8 +290,8 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
-        android:id="@+id/chosebutton"
+        android:layout_marginBottom="78dp"
+        
         >
         <Button
             android:onClick="chooseLanguage"

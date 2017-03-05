@@ -13,8 +13,8 @@
     <Button
         android:onClick="languageClicked"
         android:id="@+id/btnGeo"
-        android:layout_width="@dimen/lanbtnwidth"
-        android:layout_height="@dimen/lanbtnheight"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
         android:background="@drawable/geolan"
         android:layout_marginStart="72dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,22 +27,22 @@
     <Button
         android:id="@+id/btnSpa"
         android:onClick="languageClicked"
-        android:layout_width="@dimen/lanbtnwidth"
-        android:layout_height="@dimen/lanbtnheight"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
         android:background="@drawable/spalan"
         android:layout_marginEnd="72dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="72dp"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
 
         android:onClick="languageClicked"
         android:id="@+id/btnRus"
-        android:layout_width="@dimen/lanbtnwidth"
-        android:layout_height="@dimen/lanbtnheight"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
         android:background="@drawable/ruslan"
         android:layout_marginTop="72dp"
         app:layout_constraintTop_toBottomOf="@+id/btnSpa"
@@ -51,8 +51,8 @@
     <Button
         android:onClick="languageClicked"
         android:id="@+id/btnChi"
-        android:layout_width="@dimen/lanbtnwidth"
-        android:layout_height="@dimen/lanbtnheight"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
         android:background="@drawable/chilan"
         app:layout_constraintRight_toRightOf="@+id/btnSpa"
         android:layout_marginTop="72dp"
@@ -61,8 +61,8 @@
     <Button
         android:id="@+id/btnEng"
         android:onClick="languageClicked"
-        android:layout_width="@dimen/lanbtnwidth"
-        android:layout_height="@dimen/lanbtnheight"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
         android:background="@drawable/englan"
         android:layout_marginTop="72dp"
         app:layout_constraintTop_toBottomOf="@+id/btnRus"
@@ -71,16 +71,16 @@
     <Button
         android:onClick="languageClicked"
         android:id="@+id/btnInD"
-        android:layout_width="@dimen/lanbtnwidth"
-        android:layout_height="@dimen/lanbtnheight"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
         android:background="@drawable/indlan"
         app:layout_constraintRight_toRightOf="@+id/btnChi"
         android:layout_marginTop="72dp"
         app:layout_constraintTop_toBottomOf="@+id/btnRus" />
 
     <Button
-        android:layout_width="@dimen/rateusbtnwidth"
-        android:layout_height="@dimen/rateusbtnheight"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
         android:text="Rate Us"
         android:textSize="@dimen/big_text_size"
         android:textColor="#FFF"

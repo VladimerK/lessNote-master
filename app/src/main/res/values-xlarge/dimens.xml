@@ -18,7 +18,7 @@
     <dimen name="size">16dp</dimen>
     <dimen name="marginleft">100dp</dimen>
     <dimen name="lanbtnwidth">280dp</dimen>
-    <dimen name="lanbtnheight">150dp</dimen>
+    <dimen name="lanbtnheight">120dp</dimen>
     <dimen name="rateusbtnwidth">220dp</dimen>
     <dimen name="rateusbtnheight">100dp</dimen>
 </resources>

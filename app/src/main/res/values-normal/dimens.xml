@@ -17,7 +17,7 @@
     <dimen name="btn_chooseLn_height">43dp</dimen>
     <dimen name="size">16dp</dimen>
     <dimen name="marginleft">0dp</dimen>
-    <dimen name="lanbtnwidth">130dp</dimen>
+    <dimen name="lanbtnwidth">120dp</dimen>
     <dimen name="lanbtnheight">50dp</dimen>
     <dimen name="rateusbtnwidth">130dp</dimen>
     <dimen name="rateusbtnheight">50dp</dimen>
